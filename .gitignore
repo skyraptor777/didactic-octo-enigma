@@ -2,6 +2,7 @@
 __pycache__/
 .venv/
 venv/
+pandoc.venv/*
 
 # Django files
 staticfiles/
@@ -9,3 +10,5 @@ db.sqlite3
 
 # macOS files
 .DS_Store
+output.pdf
+temp.md
