@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 enviornment = "PROD"
-enviornment = "TEST"
+#enviornment = "TEST"
 url = 'http://dragonfly:8000'
 if enviornment == "PROD":
     url = "http://127.0.0.1:8000"
